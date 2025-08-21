@@ -17,6 +17,10 @@ public:
         this->price = price;
     }
 
+    string getCode() const {
+        return code;
+    }
+
     void setCode(const string &c) {
         code = c;
     }
